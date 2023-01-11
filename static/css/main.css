@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'p';
+    src: url('/static/assets/Poppins-Medium.ttf');
+}
+
+a{
+
+    color: aquamarine;
+    text-decoration: none;
+
+}
+
+body{
+
+    background-color: #0b0b0b;
+    font-family: 'p';
+    color: aliceblue;
+    padding: 0 2%;
+    overflow: hidden;
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wrapper-home{
+
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.wrapper-login{
+
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+
+.wrapper{
+
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form{
+
+    padding: 1.2em;
+    border-radius: 10px;
+    width: 20vw;
+
+
+}
+
+.line{
+
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+
+}
+
+
+.row{
+    margin: 20px 0 ;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+}
+.back{
+
+    margin-right: 30%;
+    
+}
+.formfield {
+    background-color: #202020;
+    color: white;
+    /* margin:  0 20px; */
+    border: none;
+    padding: 0.6em 2em;
+    border-radius: 5px;
+    
+}
+
+.submit{
+
+    background-color: #6788ff;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 0.6em 2em;
+    border-radius: 10px;
+    
+}
+
+.formfield:focus{
+    
+    outline: none;
+    
+}
+
+
+.float{
+    position: absolute;
+    opacity: 60%;
+    top: 5vh;right: 35%;
+    padding: 0.2em 2em ;
+    border-radius: 10px;
+    color: white;   
+    font-size: 1.2em;
+
+}
+
+@media screen and (max-width:768px) {
+    
+    
+    .form{
+        
+        width: 70vw;
+        
+    }
+
+    .float{
+
+        top: 10vh;
+        height: 40px;
+        /* width: 50%; */
+        right: 0;
+        border: 1px solid red;
+    }
+
+}

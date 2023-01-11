@@ -1,0 +1,9 @@
+{
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false
+}
